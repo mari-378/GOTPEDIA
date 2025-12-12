@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "Segoe UI", sans-serif;
+    background-image: url('img/got.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 1rem;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container {
+    background-image: url('img/casas.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 480px;
+    min-height: 300px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: gray;
+  letter-spacing: 0.5px;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    margin-top: 1rem;
+}
+
+.input input {
+    width: 100%;
+    max-width: 320px;          
+    padding: 0.9rem 1rem;
+    border-radius: 20px;       
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.4); 
+    color: #fff;             
+    font-size: 1rem;
+    outline: none;
+    backdrop-filter: blur(4px); 
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input input:focus {
+    border-color: #700000;
+    box-shadow: 0 0 12px rgba(112, 0, 0, 0.6); 
+}
+
+.result {
+    margin-top: 1.5rem;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.char-card {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 1.5rem;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.char-card h2 {
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    color: #B7B89F; 
+    text-shadow: 0 0 4px black;
+}
+
+.char-card p {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+.error {
+    color: #8B0000;
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+}
+
+
+
+
+
+
+
+  
+
+
+
+        
+
